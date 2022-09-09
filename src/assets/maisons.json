@@ -1,0 +1,8 @@
+[ 
+    {"nom":"Faulkner Ave", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2},
+
+    {"nom":"Palm Harbor", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2},
+
+    {"nom":"Beverly Springfield", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2}
+
+]
