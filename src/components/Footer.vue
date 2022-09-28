@@ -17,16 +17,16 @@
                 </div>
 
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm font-normal duration-700">
                     Request an offer
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Pricing
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Reviews
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Stories
                 </a>
             </div>
@@ -39,13 +39,13 @@
                 </div>
 
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Trust & Safety
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Terms of Service
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Privacy Policy
                 </a>
             </div>
@@ -55,10 +55,10 @@
                     BUY A HOME
                 </div>
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Buy
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Finance
                 </a>
             </div>
@@ -68,16 +68,16 @@
                     ABOUT
                 </div>
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Company
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     How it works
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Contact
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Investors
                 </a>
             </div>
@@ -90,13 +90,13 @@
                 </div>
 
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal   duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal   duration-700">
                     Builder trade-up
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Rent home
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal   duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal   duration-700">
                     Builder trade-up
                 </a>
             </div>
@@ -106,16 +106,16 @@
                     RESOURCES
                 </div>
 
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm font-normal duration-700">
                     Blog
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal  duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal  duration-700">
                     Guides
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal  duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal  duration-700">
                     FAQ
                 </a>
-                <a href="#" class="my-3 block text-gray-500 hover:text-gray-100 text-sm  font-normal duration-700">
+                <a href="#" class="my-3 block text-gray-500 hover:text-black text-sm  font-normal duration-700">
                     Help Center
                 </a>
             </div>
