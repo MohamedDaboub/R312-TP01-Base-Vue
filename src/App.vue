@@ -38,8 +38,18 @@
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600 underline" to="Liste-supabase">
+        <router-link class="text-red-600 underline" to="/Liste-supabase">
           Supabase  
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/logout">
+          logout  
+        </router-link>
+      </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/logIn">
+          logIn  
         </router-link>
       </li>
     </ul>
@@ -49,9 +59,13 @@
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
   </Suspense>
+
+  <footer1 />
   
 </template>
 
 <script setup lang="ts">
 import { Bars3Icon } from '@heroicons/vue/20/solid'
+import footer1 from "./components/Footer.vue"
+
 </script>
