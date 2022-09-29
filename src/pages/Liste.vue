@@ -7,7 +7,7 @@ import maisons from "../assets/maisons.json"
 <template>
     <h2>Page Liste</h2>
     <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(345px,1fr))] gap-8 m-10 ">
-        <card v-for ="maison in maisons" :key="maison.nom" v-bind="maison"/>
+        <card v-for ="maison in maisons" :key="maison.NomMaison" v-bind="maison"/>
       
     </div>
 </template>

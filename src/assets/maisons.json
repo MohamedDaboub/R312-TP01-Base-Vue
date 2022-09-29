@@ -1,8 +1,8 @@
 [ 
-    {"nom":"Faulkner Ave", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2},
+    {"NomMaison":"Faulkner Ave", "PrixMaison":20, "Image":"../../public/Mask Group.png", "nbrSDB":2},
 
-    {"nom":"Palm Harbor", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2},
+    {"NomMaison":"Palm Harbor", "PrixMaison":20, "Image":"../../public/Mask Group.png", "nbrSDB":2},
 
-    {"nom":"Beverly Springfield", "prix":20, "image":"../../public/Mask Group.png", "nbrSDB":2}
+    {"NomMaison":"Beverly Springfield", "PrixMaison":20, "Image":"../../public/Mask Group.png", "nbrSDB":2}
 
 ]

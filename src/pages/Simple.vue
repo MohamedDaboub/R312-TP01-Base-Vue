@@ -3,10 +3,10 @@ import card from "../components/Card.vue";
 
 
 const obj = {
-    nom:"Faulkner Ave", prix:20, image:"/Mask Group3.jpg", nbrSDB:2
+    NomMaison:"Faulkner Ave", PrixMaison:20, Image:"/Mask Group3.jpg", nbrSDB:2
 }
-const obj2 = {nom:"Palm Harbor", prix:20, image:"/Mask Group2.png", nbrSDB:2}
-const obj3 = {nom:"Beverly Springfield", prix:20, image:"/Mask Group.png", nbrSDB:2}
+const obj2 = {NomMaison:"Palm Harbor", PrixMaison:20, Image:"/Mask Group2.png", nbrSDB:2}
+const obj3 = {NomMaison:"Beverly Springfield", PrixMaison:20, Image:"/Mask Group.png", nbrSDB:2}
 </script>
 <template>
     <h2>Page simple</h2>
