@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { ref } from '@vue/reactivity'
     import card from "./card.vue"
-    const maison = ref({Image:'/Mask Groupe3.jpg',});
+    const maison = ref({});
     </script>
 <template>
     <div>

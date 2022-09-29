@@ -44,7 +44,7 @@
       </li>
       <li>
         <router-link class="text-red-600 underline" to="/logout">
-          logout  
+          login avec Github 
         </router-link>
       </li>
       <li>
