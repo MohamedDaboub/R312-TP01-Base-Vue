@@ -6,6 +6,9 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
+// pour test à supprimer en prod
+globalThis.supabase = supabase;
+
 export const user = ref(supabase.auth.user())
 supabase.auth.onAuthStateChange(() => { 
     user.value = supabase.auth.user()
