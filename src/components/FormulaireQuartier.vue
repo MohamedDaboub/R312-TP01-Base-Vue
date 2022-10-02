@@ -59,9 +59,9 @@
   
   </script>
   <template>
-    <div class="">
+    <div class="bg-blue-900 text-white">
       <div class="p-2 ">
-        <h2 class="text - 2xl "> Resulat (Prévisualisation)</h2>
+        <h2 class="text-2xl py-4 "> Resulat (Prévisualisation)</h2>
         <div>
           <Disclosure v-for="(listequartier, libellecommune) in groupBy( data, 'libelle_commune' )" :key="libellecommune" >
             <DisclosureButton >{{ libellecommune}}</DisclosureButton>
@@ -75,7 +75,7 @@
             </Disclosure>
         </div>
       </div>
-      <div class="p-2 border-2 mt-20 bg-indigo-50 rounded-2xl">
+      <div class="p-2 border-2 mt-20 bg-indigo-50 rounded-2xl text-black  ">
         <FormKit type="form" v-model="quartier" @submit="upsertquartiercommune"
           :submit-attrs="{ classes: { input: 'bg-blue-300 px-4 my-3 py-4  p-1 rounded' } }">
           <FormKit name="lebelle_quartier" label="Nom Quartier" :config="{
@@ -92,7 +92,7 @@
           }" />
         </FormKit>
       </div>
-      <div class="flex justify-between px-4 py-8">
+      <div class="flex justify-between px-4 py-8 text-black">
       <button type="button"  v-if="quartier" @click="($refs.dialogSupprimer as any).showModal()"
         class="focus-style justify-self-end rounded-md bg-blue-300 px-8 py-4 shadow-sm">
         Supprimer l'offre
