@@ -15,13 +15,13 @@
             </li> -->
           <Disclosure v-for="(listequartier, libellecommune) in groupBy( data, 'libelle_commune' )" :key="libellecommune" >
             <DisclosureButton >{{ libellecommune}}</DisclosureButton>
-            <DisclosurePanel>
-              <ul>
-                <li v-for="quartierObject in listequartier" :key="quartierObject.id">
-                  {{ quartierObject.lebelle_quartier }}
-                </li>
-              </ul>
-            </DisclosurePanel> 
+              <DisclosurePanel>
+                <ul>
+                  <li v-for="quartierObject in listequartier" :key="quartierObject.id">
+                    {{ quartierObject.lebelle_quartier }}
+                  </li>
+                </ul>
+              </DisclosurePanel> 
             </Disclosure>
         
       </section>

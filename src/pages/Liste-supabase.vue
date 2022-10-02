@@ -8,6 +8,6 @@
     .select('*')
 
 </script> 
-<template>
-    <Card v-for="maison in Maison" :key="maison.id" v-bind="maison"/>   
+<template >
+    <Card  v-for="maison in Maison" :key="maison.id" v-bind="maison"/>   
 </template>

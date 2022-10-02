@@ -3,7 +3,7 @@
     import { ref } from '@vue/reactivity'
     import card from "./card.vue"
     import {supabase} from "../supabase"
-    const maison = ref({});
+    const maison = ref({Image:"/public/Mask Group3.jpg"});
     const router = useRouter();
     async function upsertMaison(dataForm, node) {
     const { data, error } = await supabase.from("Maison").upsert(dataForm);
@@ -25,12 +25,12 @@
 }
 </script>
 <template>
-    <div>
+    <div class="bg-blue-300 flex gap-4">
         <div class="p-2">
-            <h2>Résultat (Prévisualisation)</h2>
-            <card v-bind="maison" />
+            <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
+            <card class="w-2/3" v-bind="maison" />
         </div>
-        <div class="p-2">
+        <div class="p-2 py-10">
             <FormKit type="form" @submit="upsertMaison" v-model="maison" :config="{
                         classes: {
                                     input: 'p-2 rounded border-gray-300 shadow-sm border bg-bleu-300 hover:border-2 hover:black',
@@ -40,8 +40,10 @@
             :submit-attrs="{ classes: { input: 'bg-blue-900 px-6 justify-center   py-4 text-white flex my-4 centre rounded' }}">
                 <FormKit name="NomMaison" label="NomMaison" wrapper-class="text-xl  " />
                 <FormKit name="PrixMaison" label="PrixMaison" type="number" wrapper-class="text-xl  "/>
+                <FormKit name="adresse" label="adresse" wrapper-class="text-xl  "/>
                 <div class="flex gap-5">
                     <FormKit name="nbrSDB" label="nbrSDB" type="number"/>
+                    <FormKit name="nbrChambre" label="nbrChambre" type="number"/>
                 </div>
                 <FormKit name="favori" label="Mettre en valeur "
                 type="checkbox"  wrapper-class="flex text-xl   " class="" />
