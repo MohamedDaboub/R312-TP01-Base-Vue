@@ -42,7 +42,7 @@
         error
       );
     } else {
-      router.push("/quartier");
+      router.push("/quartier/quartier");
     }
   }  
   const { data: listeCommune, } = await supabase
@@ -92,18 +92,25 @@
           }" />
         </FormKit>
       </div>
-      <button type="button"  v-if="quartier.code_quartier" @click="($refs.dialogSupprimer as any).showModal()"
+      <div class="flex justify-between px-4 py-8">
+      <button type="button"  v-if="quartier" @click="($refs.dialogSupprimer as any).showModal()"
         class="focus-style justify-self-end rounded-md bg-blue-300 px-8 py-4 shadow-sm">
         Supprimer l'offre
       </button>
-      
-      <dialog ref="dialogSupprimer" @click="($event.currentTarget as any).close()">
-        <button type="button" class="focus-style justify-self-end rounded-md bg-blue-300 px-8 py-4 shadow-sm">
-          Annuler</button>
-          <button type="button" @click="supprimerQuartier()"
-          class="focus-style rounded-md bg-blue-300 px-8 py-4 shadow-sm">
-          Confirmer suppression
+        <button type="button" @click="router.push('/quartier/quartier')"
+          class="focus-style justify-self-end rounded-md bg-blue-300 px-8 py-4 shadow-sm">
+          Retour
         </button>
-      </dialog>
+      </div>
+      <div class="gap-4 flex">
+        <dialog class="gap-4" ref="dialogSupprimer" @click="($event.currentTarget as any).close()">
+          <button type="button" class="focus-style justify-self-end rounded-md bg-blue-300 px-8 py-4 shadow-sm">
+            Annuler</button>
+            <button type="button" @click="supprimerQuartier()"
+            class="focus-style rounded-md bg-blue-300 px-8 py-4 shadow-sm">
+            Confirmer suppression
+          </button>
+        </dialog>
+      </div>
     </div>
   </template>
